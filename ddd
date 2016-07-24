@@ -1,0 +1,193 @@
+.bannerout{
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+.bannerinner{
+  width: 100%;
+  height: 100%;
+  padding:0px 3%;
+  left:0px;
+  right:0px;
+  position: absolute;
+  overflow: hidden;
+}
+.bannerinner img{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-30%);
+}
+
+.bannerword{
+  width: 93.5%;
+  height: 120px;
+  position: absolute;
+  z-index: 50;
+  top:110px;
+}
+
+.phone.iconfont{
+  font-size: 36px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-weight: lighter;
+  min-width: 678px;
+  transition:all 1s;
+  color: #333;
+}
+
+.phoneword{ 
+  height: 60px;
+  width: 100%;
+  margin:0 auto;
+  text-align: center;
+  line-height: 60px;
+  font-size: 26px;
+  color: #333;
+  min-width: 678px;
+  transition:all 1s;
+  color: #333;
+
+}
+
+.bannerword2{
+  height: 140px;
+  width: 100%;
+}
+.bannerword2 p:nth-child(1){
+  width: 100%;
+  text-align: center;
+  line-height:60px; 
+  height:60px;
+  font-size: 44px;
+  color:#333;
+  font-weight: lighter;
+  transition:all 1s;
+}
+.bannerword2 p:nth-child(2){
+  width: 100%;
+  text-align: center;
+  line-height:30px; 
+  height:30px;
+  font-size:22px; 
+  color:#444;
+  transition:all 1s;
+}
+.bannerword2 p:nth-child(3){
+  width: 100%;
+  text-align: center;
+  line-height:30px; 
+  height:30px;
+  font-size: 22px;
+  color:#444;
+  transition:all 1s;
+}
+.bannerword3 p:nth-child(1){
+    width: 100%;
+    height: 63px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bannerword3 p:nth-child(2){
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+}
+.bannerword4 p:nth-child(1){
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 40px;
+}
+.bannerword4 p:nth-child(2){
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;  
+}
+
+
+
+.bannerinner:nth-of-type(4) img{
+  transform:translate(-50%,-50%);
+}
+
+
+
+
+
+@media screen and (max-width: 720px){
+  .bannerout{
+    height: 410px;
+  }
+  .bannerinner{
+    width: 100%;
+    height: 410px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-40%);
+    overflow: hidden;
+  }
+  .bannerinner img{
+    width: 720px;
+    height: auto;
+    transform:translate(-50%,-35%);
+  }
+  .bannerword{
+    width: 93.5%;
+    height: 100px;
+    position: absolute;
+    z-index: 50;
+    top:25px;
+  }
+  
+  .phone.iconfont{
+    font-size: 30px;
+  }
+  .phoneword{
+    font-size: 20px;
+  }
+
+  
+  .bannerword2 p:nth-child(1){
+    line-height:50px; 
+    height:50px;
+    font-size: 38px;
+  }
+  .bannerword2 p:nth-child(2){
+    line-height:30px; 
+    height:30px;
+    font-size:18px; 
+  }
+  .bannerword2 p:nth-child(3){
+    line-height:30px; 
+    height:30px;
+    font-size: 18px;
+  }
+
+  .bannerword3 p:nth-child(1){
+    width: 100%;
+    height: 56px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bannerword3 p:nth-child(2){
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 18px;
+  }
+
+
+}
